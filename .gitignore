@@ -1,5 +1,5 @@
-.DSstore
-.DSstore/
+.DS_store
+.DS_store/
 /*.js
 /*.js.map
 
