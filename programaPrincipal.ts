@@ -16,7 +16,8 @@ require(
  
         $(document).ready(function () {
             var app = new TestApp();
-            app.appendTo('body');
+            //app.appendTo('body');
+          $("#div1").html("Hola")  
         });
         
         

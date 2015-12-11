@@ -4,11 +4,11 @@
 
 require.config({
  
-    baseUrl: 'www/',
+    baseUrl: './',
  
     paths: {
         //main libraries
-        jquery: 'scripts/jquery',
+        jquery: './scripts/jquery',
  
         //shortcut paths
         templates: '../templates',
