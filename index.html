@@ -5,14 +5,35 @@
     <meta charset="utf-8" />
     <title>TypeScript HTML App</title>
     <script src="scripts/jquery.js"></script>
-    <!-- <script data-main="programaPrincipal.js" src="require.js"></script> /-->
-    <script src="scripts/require.js"></script>
-    <script src="appconfig.js"></script>
+     <!--    <script src="scripts/require.js"></script> /-->
+    <script src="scripts/d3.v3.min.js"></script>
+     <!--    <script src="scripts/d3.geo.projection.min.js"></script>
+    <script src="scripts/topojson.v1.min.js"></script> 
+    <script src="appconfig.js"></script>/-->
     <script src="programaPrincipal.js"></script>
+            <style type="text/css">
+            div.bar {
+                display: inline-block;
+                width: 10px;
+                height: 75px;   /* We'll override this later */
+                margin-right: 2px;
+                background-color: teal;
+            }
+            .pumpkin {
+            fill: yellow;
+            stroke: orange;
+            stroke-width: 5;
+        }
+
+        </style>
+
 </head>
 <body>
     <h1>TypeScript HTML App</h1>
     <div id="div1"> <h2> Hola mundo del TypeScript con requirejs</h2></div>
     <div id="content"></div>
+    <p></p>
+    <h1>D3.JS samples</h1>      
+ 
 </body>
 </html>
